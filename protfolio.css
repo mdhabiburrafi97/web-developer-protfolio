@@ -10,12 +10,15 @@
 .text-primary{
     color: rgb(253, 110, 10);
 }
+/*Secondary Background Color-secondary-bg.*/
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+}
 /*Header*/
 .header{
     background-image: url(../Projects/portfolio-resources/images/developer.png), url(../Projects/portfolio-resources/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
-    background-color: rgb(255, 248, 243);
 }
 
 /* Nav Style */
@@ -54,6 +57,7 @@ nav ul li a{
     font-size: 20px;
     border: none;
 }
+
 /*Banner Styles*/
 .banner{
     display: flex;
@@ -73,4 +77,33 @@ nav ul li a{
 }
 .banner-profile-pic{
     width: 584px;
+}
+/*Main Styles.*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*About Me Section.*/
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);;
+}
+.section-description{
+    font-size: 18px;
+    color: color: rgb(117, 117, 117);;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
