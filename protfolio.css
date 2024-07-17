@@ -114,6 +114,7 @@ main section{
     font-weight: 600;
 }
 /*Third Section.Skill section styles*/
+
 .skills-container{
     display: flex;
     gap: 24px;
@@ -130,4 +131,28 @@ main section{
     text-align: center;
     color: rgb(117, 117, 117);
     
-}    
+} 
+/*Resume Section Style.*/
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+
+}   
+.experience-description, .experience-subtitle{
+    color: rgb(117, 117, 117);
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px;
+}
+.text-center{
+   text-align: center;
+}
+.resume-download-cv{
+    margin: 50px;
+}
